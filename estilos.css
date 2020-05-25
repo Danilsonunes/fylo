@@ -15,9 +15,12 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 .background-img{
-	height: 69%;
-	position: absolute;
-	top: 750px;
+	background-image: url(images/bg-curvy-desktop.svg);
+	width: 100%;
+	height: auto;
+	position: relative;
+	background-position: center;
+	background-position-y: 445px;
 	z-index: -10;
 }
 /*.nav{
@@ -204,8 +207,9 @@ hr{
 	display: flex;	
 }
 .access{
+	background:hsl(217, 28%, 15%) ;
 	position: relative;
-	margin: 100px auto 50px;
+	margin: 100px auto -90px;
 	display: block;
 	width: 900px;
 	box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
@@ -247,4 +251,43 @@ hr{
 	height: 40px;
 	width: 200px;
 	border-radius: 50px;
+ }
+ footer{
+    background-color: #0c1524;
+    padding: 230px 0 50px 10px;
+}
+
+.container-foot{
+	max-width: 80%;
+	margin: 20px 0 auto;
+	display: flex;
+}
+.grow1 {
+	flex-grow: 1;
+}
+.wrapper {
+	flex: 1 0 70%;
+	display: flex;
+	flex-wrap: no-wrap;			
+}
+.flex {
+	display: flex;
+}
+.text-light{
+    color: #fff;    
+}
+.vertical-align{
+    align-items: center;
+}
+.column {
+    flex-direction: column;
+}
+.vertical-align{
+    align-items: center;
+}
+.ml-footer{
+    margin-left: 38px;
+}
+footer img{
+    margin-right: 15px;
 }
