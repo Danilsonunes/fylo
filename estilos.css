@@ -18,10 +18,11 @@ body {
 	background-image: url(images/bg-curvy-desktop.svg);
 	width: 100%;
 	height: auto;
-	position: relative;
+	position: absolute;
 	background-position: center;
 	background-position-y: 445px;
 	z-index: -10;
+	margin: 865px 0;
 }
 /*.nav{
 	position: relative;
