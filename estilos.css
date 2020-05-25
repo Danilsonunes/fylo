@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	border: 3px solid red;
 }
 body {
 	box-sizing: border-box;
